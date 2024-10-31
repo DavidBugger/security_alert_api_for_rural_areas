@@ -1,9 +1,9 @@
 # Security Alert API for Rural Areas
 
 ## Overview
-The Security Alert API is designed to aggregate and broadcast real-time security alerts in rural areas affected by insecurity, especially in regions like Plateau State. It provides a simple interface for reporting security incidents, notifying local authorities and residents, and analyzing trends over time.
+The Security Alert API is built to provide a streamlined platform for aggregating and distributing real-time security alerts in rural Nigerian regions particularly affected by persistent insecurity, including states such as Kaduna, Zamfara, Taraba, Niger,Katsina and Plateau. The API enables community members to report incidents easily, provides authorities and residents with timely notifications, and offers tools to analyze and track security trends over time, all of which can help improve response measures and foster a sense of security among communities facing ongoing threats.
 
-This API integrates with the Twilio API to send SMS alerts to users based on geolocation. It's built using Flask and uses PostgreSQL for storing data.
+This API integrates with the Twilio API to send SMS alerts to users based on geolocation. It's built using Flask and uses Mysql for storing data.
 
 ## Features
 - Report Security Incidents: Farmers and authorities can post alerts in real-time.
@@ -64,7 +64,7 @@ Response Example:
 }
 Tech Stack
 Python (Flask)
-PostgreSQL for data persistence.
+MYSQL for data persistence.
 Twilio API for SMS alerts.
 SQLAlchemy for ORM.
 Alembic for database migrations.
@@ -108,7 +108,7 @@ flask db init
 flask db migrate -m "Initial migration."
 flask db upgrade
 
-#Below are the links that  shows demonstration on postman and the receiving message on my phone
+#Below are the links that  shows demonstration on postman and the receiving message on my phone <br>
 #Link 1
 https://drive.google.com/file/d/1zAVX-rnot7iWn00D84Bl8WbPH-Mm25tu/view?usp=sharing <br>
 #Link 2 <br>
