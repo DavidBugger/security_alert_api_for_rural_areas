@@ -108,8 +108,8 @@ flask db init
 flask db migrate -m "Initial migration."
 flask db upgrade
 
-#Below are the links shows demonstration on postman and the receiving message on my phone
+#Below are the links that  shows demonstration on postman and the receiving message on my phone
 #Link 1
-https://drive.google.com/file/d/1zAVX-rnot7iWn00D84Bl8WbPH-Mm25tu/view?usp=sharing
-#Link 2 
+https://drive.google.com/file/d/1zAVX-rnot7iWn00D84Bl8WbPH-Mm25tu/view?usp=sharing <br>
+#Link 2 <br>
 https://drive.google.com/file/d/1c3alSaZl7ZvKbnt8aq7ZTz0C9Dqn1HWH/view?usp=sharing
